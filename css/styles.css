@@ -6,7 +6,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
-
+/* hides the subtext for my in page links */
+.link-text{
+visibility: hidden;
+}
 /* Enable smooth scrolling on the whole document */
 html {
 	scroll-behavior: smooth;
