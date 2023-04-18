@@ -7,11 +7,6 @@
 
 }
 
-/* Enable smooth scrolling on the whole document */
-html {
-	scroll-behavior: smooth;
-}
-
 /* Header */
 header{
   position: relative;
@@ -178,10 +173,11 @@ h5{
     opacity: 110%;
   }
 
+  /* gives icons rounded effects */
   #token1{
     height: 100%;
     width: 100%;
-    border-radius: 60%;
+    border-radius: 60%; 
   }
   #token2{
     height: 100%;
@@ -309,8 +305,6 @@ h5{
   padding: 2px 16px;
 }
 
-
-
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
   border-radius: 5px 5px 0 0;
@@ -330,31 +324,12 @@ img {
   box-shadow: inset 250px 0 0 0 #54b3d6;
   color: white;
 }
-/* Footer links */
-  #icon2{
-    display: flex;
-    justify-content: center;
-  }
-#facebk{
-    height: 40px;
-    width: 40px;
-}
 
-#insta{
-    height: 40px;
-    width: 40px;
-}
-
-#pinte{
-    height: 40px;
-    width: 40px;
-}
 /* Menu pdf pictures  */
 .pdf-logo{
   display: flex;
   flex-direction: row;
 }
-
 
 /* Icon size when on different views  */
 .responsive{
