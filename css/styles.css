@@ -6,10 +6,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
-/* hides the subtext for my in page links */
-.link-text{
-visibility: hidden;
-}
+
 /* Enable smooth scrolling on the whole document */
 html {
 	scroll-behavior: smooth;
@@ -184,17 +181,17 @@ h5{
   #token1{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 60%;
   }
   #token2{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 60%;
   }
   #token3{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 60%;
   }
   /* For slideshow styles  */
   * {box-sizing:border-box}
