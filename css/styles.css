@@ -439,3 +439,9 @@ nav ul li{
   display:none;
   }
 }
+
+@media screen and (max-width: 1024px){
+  .mob-logo{
+  display:none;
+  }
+}
