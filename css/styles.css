@@ -30,7 +30,7 @@ nav{
 
 }
 label span{
-  font-size: 2em;
+  font-size: 3rem;
   padding: 1%;
   cursor: pointer;
 }
@@ -98,6 +98,7 @@ h5{
 h5{
   font-weight: 700;
   text-align: center;
+  padding: 5px;
   
 }
 
@@ -170,7 +171,7 @@ h5{
 #icon{
     display: flex;
     justify-content:space-evenly;
-    opacity: 110%;
+    opacity: 100%;
   }
 
   /* gives icons rounded effects */
@@ -402,7 +403,7 @@ nav ul li{
     flex-direction: row;
   }
 }
-
+/* Gives video layout when on mobile  */
 @media screen and (min-width:1024px){
   .vod{
     display: flex;
@@ -411,7 +412,7 @@ nav ul li{
   justify-content: space-evenly;
   }
 }
-
+/* Shows card on mobile  */
 @media screen and (min-width: 1024px){
   .card{
     display: block;
@@ -421,5 +422,20 @@ nav ul li{
     width:50%;
     padding: 10px;
     
+  }
+}
+/* Adds logo when viewing on mobile  */
+@media screen and (max-width: 1024px){
+  .logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+}
+/* Hides extra logo when viewing on desktop */
+@media screen and (min-width: 1024px){
+  .logo{
+  display:none;
   }
 }
