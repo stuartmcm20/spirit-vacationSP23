@@ -132,6 +132,11 @@ h5{
   grid-row: span 2;
 }
 
+/* About me styles */
+.image-section{
+  display: flex;
+  justify-content: center;
+}
 /* h5 banner  */
 .mybanner{
   text-align: center;
