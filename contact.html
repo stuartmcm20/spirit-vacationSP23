@@ -31,13 +31,41 @@
 </ul>
         </nav>
     </header>
-
-
-
-
-
-
-
+<main>
+    <article>
+        <h2>Contact Form</h2>
+        <form>
+            <fieldset name="Personal_info">
+                <legend>Personal Information</legend>
+            
+            <p>
+                <label for="first">First name: </label>
+                <input type="text" name="firstname" id="first" />
+            </p>
+            <p>
+                <label for="last">Last name: </label>
+                <input type="text" name="lastname" id="last" />
+            </p>
+         <p>
+        </fieldset>
+        <fieldset name="extra_info">
+        <legend>Extra Information</legend>
+        <p>
+            <label for="share">Do you have any experiences to share?</label>
+           </p>
+           <p>
+           <textarea name="share" placeholder="I've been to...(250 characters maximum)" maxlength="250" rows="3" cols="30" id="share">
+           </textarea>
+           </p>
+        <p>
+        <label for="personal-rate">How would you rate your experience?: </label>0
+        <input type="range" name="rating" min="0" max="50" value="25" id="personal-rate" />10+
+        </p>
+        </fieldset>
+        <input type="submit" value="Submit">
+        </form>
+    </article>
+</main>
     <footer>
         <nav class="foot-links">
             <div class="follow">
